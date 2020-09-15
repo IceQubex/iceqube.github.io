@@ -1,6 +1,22 @@
-h1
-{
-    color:darkblue ;
-    font-size: 2rem
+h1 {
+  color: darkblue;
+  font-size: 2rem;
+}
+.timetable {
+  border-collapse: collapse;
+  min-width: 600;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px black solid;
+}
 
+.timetable thead tr {
+  background-color: darkblue;
+  color: yellow;
+  font-weight: bold;
+}
+
+.timetable th,
+.timetable td {
+padding: 12px 15px;
 }
