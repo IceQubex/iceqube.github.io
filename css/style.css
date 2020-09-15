@@ -24,3 +24,8 @@ h1 {
 .timetable tbody tr:nth-of-type(even) {
   background-color: lightgray;
 }
+
+.work{
+  background-color: orange;
+}
+
