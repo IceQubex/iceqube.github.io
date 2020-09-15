@@ -18,5 +18,9 @@ h1 {
 
 .timetable th,
 .timetable td {
-padding: 12px 15px;
+  padding: 12px 15px;
+}
+
+.timetable tbody tr:nth-of-type(even) {
+  background-color: lightgray;
 }
