@@ -14,6 +14,9 @@ h1 {
   background-color: darkblue;
   color: yellow;
   font-weight: bold;
+  border-top: 2px;
+  border-left: 2px;
+  border-right: 2px;
 }
 
 .timetable th,
@@ -25,7 +28,10 @@ h1 {
   background-color: lightgray;
 } */
 
-.work{
+.work {
   background-color: orange;
 }
 
+.lesson {
+  background-color: lightblue;
+}
