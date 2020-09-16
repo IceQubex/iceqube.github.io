@@ -21,9 +21,9 @@ h1 {
   padding: 12px 15px;
 }
 
-.timetable tbody tr:nth-of-type(even) {
+/* .timetable tbody tr:nth-of-type(even) {
   background-color: lightgray;
-}
+} */
 
 .work{
   background-color: orange;
