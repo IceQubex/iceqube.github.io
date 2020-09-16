@@ -14,9 +14,12 @@ h1 {
   background-color: darkblue;
   color: yellow;
   font-weight: bold;
-  border-top: 2px;
-  border-left: 2px;
-  border-right: 2px;
+}
+
+.timetable thead tr th {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .timetable th,
