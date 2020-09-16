@@ -14,6 +14,7 @@ h1 {
   background-color: darkblue;
   color: yellow;
   font-weight: bold;
+  border-top: 4px solid red;
 }
 
 .timetable th,
@@ -30,6 +31,17 @@ h1 {
 .timetable td:first-of-type {
   border-left: 4px solid black;
 }
+
+.timetable th:last-of-type,
+.timetable td:last-of-type {
+  border-right 4px solid black;
+}
+
+.timetable tbody tr:last-of-type {
+  border-bottom: 4px solid red;
+}
+
+
 
 /* .timetable tbody tr:nth-of-type(even) {
   background-color: lightgray;
