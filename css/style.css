@@ -16,15 +16,19 @@ h1 {
   font-weight: bold;
 }
 
-.timetable thead tr th {
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-}
-
 .timetable th,
 .timetable td {
   padding: 12px 15px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.timetable th:first-of-type,
+.timetable td:first-of-type {
+  border-left: 4px solid black;
 }
 
 /* .timetable tbody tr:nth-of-type(even) {
