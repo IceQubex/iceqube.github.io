@@ -41,8 +41,6 @@ h1 {
   border-bottom: 4px solid red;
 }
 
-
-
 /* .timetable tbody tr:nth-of-type(even) {
   background-color: lightgray;
 } */
@@ -55,11 +53,19 @@ h1 {
   background-color: lightblue;
 }
 
-.food { 
+.food {
   background-color: lightgreen;
 }
 
 .time {
   background-color: darkblue;
   color: yellow;
+}
+
+.fulltime {
+  background-color: yellow;
+}
+
+.hobby {
+  background-color: lightsalmon;
 }
