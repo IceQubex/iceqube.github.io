@@ -58,3 +58,8 @@ h1 {
 .food { 
   background-color: lightgreen;
 }
+
+.time {
+  background-color: darkblue;
+  color: yellow;
+}
