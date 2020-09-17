@@ -34,7 +34,7 @@ h1 {
 
 .timetable th:last-of-type,
 .timetable td:last-of-type {
-  border-right 4px solid black;
+  border-right: 4px solid red;
 }
 
 .timetable tbody tr:last-of-type {
