@@ -78,6 +78,14 @@ h1 {
 
 .wrapper {
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 50px);
   background-color: red;
 }
+
+.navbar
+{
+  background-color: blue;
+  height: 50px;
+  width: 100vw;
+}
+
