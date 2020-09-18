@@ -69,3 +69,8 @@ h1 {
 .hobby {
   background-color: lightsalmon;
 }
+
+.wrapper {
+  width: 100vw
+  height: 100vh
+}
