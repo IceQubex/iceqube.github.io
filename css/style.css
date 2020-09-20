@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -88,7 +89,7 @@ h1 {
   width: 100vw;
   text-align: right;
   word-spacing: 20px;
-  padding: auto 0;
+  padding: auto;
 }
 
 .navbar a {
@@ -98,6 +99,7 @@ h1 {
 }
 
 .twitter {
+  background-color: teal;
   height: 20vh;
   width: 100vw;
 }
