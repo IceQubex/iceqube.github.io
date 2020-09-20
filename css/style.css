@@ -88,7 +88,7 @@ h1 {
   width: 100vw;
   text-align: right;
   word-spacing: 20px;
-  padding: 10px 0px;
+  padding: auto 0;
 }
 
 .navbar a {
