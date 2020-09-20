@@ -76,6 +76,7 @@ h1 {
 }
 
 .wrapper {
+  padding: 10px 0px 0px 10px;
   width: 100vw;
   height: 65vh;
   background-color: red;
@@ -92,7 +93,7 @@ h1 {
 
 .navbar a {
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .header {
