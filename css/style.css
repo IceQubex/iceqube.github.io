@@ -98,7 +98,8 @@ h1 {
   height: 85vh;
   width: 100vw;
   background-color: red;
-  padding: auto
+  padding: auto;
+  /* padding-top: ; */
 }
 
 #about
