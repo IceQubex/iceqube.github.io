@@ -76,12 +76,6 @@ h1 {
   background-color: lightsalmon;
 }
 
-.wrapper {
-  padding: 10px 0px 0px 10px;
-  width: 100vw;
-  height: 65vh;
-  background-color: red;
-}
 
 .navbar {
   background-color: blue;
@@ -95,32 +89,34 @@ h1 {
   color: black;
 }
 
-.twitter {
-  background-color: teal;
-  height: 20vh;
-  width: 100vw;
-}
-
 h1 {
   text-align: center;
 }
 
 #intro
 {
-
+  height = 85vh;
+  width: 100vw;
+  background-color: red
 }
 
 #about
 {
-
+  height = 100vh;
+  width: 100vw;
+  background-color: yellow
 }
 
 #projects
 {
-
+  height = 100vh;
+  width: 100vw;
+  background-color: lightgreen
 }
 
 #contact
 {
-  
+  height = 100vh;
+  width: 100vw;
+  background-color: lightblue
 }
