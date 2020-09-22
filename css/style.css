@@ -8,6 +8,7 @@
   color: darkblue;
   font-size: 2rem;
 } */
+
 .timetable {
   border-collapse: collapse;
   min-width: 600;
@@ -81,6 +82,9 @@
   background-color: blue;
   height: 15vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   word-spacing: 20px;
   text-align: right;
   /* margin: auto; */
@@ -90,7 +94,7 @@
   text-decoration: none;
   font-size: 2em;
   color: black;
-  margin: 7vh 0;
+  /* margin: 7vh 0; */
 }
 
 h1 {
