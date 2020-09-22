@@ -82,19 +82,16 @@
   background-color: blue;
   height: 15vh;
   width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   word-spacing: 20px;
   text-align: right;
-  /* margin: auto; */
 }
 
-.navbar a{
+.navbar p{
   text-decoration: none;
   font-size: 2em;
   color: black;
-  /* margin: 7vh 0; */
+  background-color: white;
+  margin: auto 0;
 }
 
 h1 {
