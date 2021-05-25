@@ -7,8 +7,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: left top-right
-                        left bottom-right;
+    grid-template-areas: "left top-right"
+                        "left bottom-right";
     height: 1vh;
     width: 1vw;
 }
