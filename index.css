@@ -2,3 +2,23 @@
     margin: 0;
     padding: 0;
 }
+
+.root{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: left top-right
+                        left bottom-right;
+}
+
+.left{
+    background-color: blue;
+}
+
+.bottom-right{
+    background-color: yellow;
+}
+
+.top-right{
+    background-color: red;
+}
