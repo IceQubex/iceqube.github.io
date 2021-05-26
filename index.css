@@ -29,13 +29,27 @@
 }
 
 .ball {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     background-color: red;
     border-color: black;
+    color: red;
     border-radius: 50%;
     border-width: 10em;
     height: 100px;
     width: 100px;
-    animation: bounce 0.4s ease 0s infinite alternate;
+    animation: bounce 0.5s ease 0s infinite alternate;
+    transition: background-color 250ms ease, height 250ms ease, width 250ms ease, color 250ms ease;
+}
+
+.ball:hover {
+    background-color: lightblue;
+    height: 120px;
+    width: 120px;
+    color: darkblue;
+    
 }
 
 .title-container {
