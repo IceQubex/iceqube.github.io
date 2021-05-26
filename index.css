@@ -53,6 +53,12 @@
     font-size: 3em;
     font-weight: 400;
     text-align: center;
+    transition: color 0.5s ease, font-size 0.5s ease;
+}
+
+.title:hover {
+    color: red;
+    font-size: 3.5em;
 }
 
 .line-break-container {
@@ -85,7 +91,18 @@
     text-align: center;
     width: 40vw; 
     font-family: 'Roboto', sans-serif;
+    transition: font-size 0.5s ease-in-out 0s, width 0.5s ease-in-out 0s, color 0.5s ease-in-out;
 }
+
+.details:hover {
+    /* animation: enlarge 1s ease 0s 1 normal forwards; */
+    /* font-size: 2em; */
+    font-size: 2em;
+    width: 80vw;
+    color: yellowgreen;
+}
+
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -104,17 +121,13 @@
 }
 
 .footer img {
-    height: 50px;   
+    height: 50px;
+    transition: height 0.5s ease 0s, transform 0.5s ease 0s;   
 }
 
-@keyframes bounce {
-    0% {
-        transform: translateY(0em);
-    }
-
-    100% {
-        transform: translateY(-6em);
-    }
+.footer img:hover {
+    height: 70px;
+    transform: rotate(360deg);   
 }
 
 .coldplay {
@@ -128,6 +141,17 @@
     animation: rotation 5s linear 0s infinite normal;
 }
 
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0em);
+    }
+
+    100% {
+        transform: translateY(-6em);
+    }
+}
+
 @keyframes rotation {
     0% {
         transform: rotate(0deg);
@@ -136,4 +160,15 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+@keyframes enlarge {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(2);
+    }
+
 }
